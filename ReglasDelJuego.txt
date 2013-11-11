@@ -1,9 +1,35 @@
 Triviados:
--Un juego sobre un tablero en el que participan dos jugadores
-	-Se usa el tablero del trivial
--La tematica del juego es ... (series, cine, ...)
--Fichas: cada ficha tiene 7 huecos
 
+-  Un juego sobre un tablero en el que participan dos jugadores
+	-Se usa el tablero del trivial
+
+- La tematica del juego es ... (series, cine, ...)
+- Fichas: 
+	- cada ficha tiene 7 huecos
+	- color
+	- tematica
+- Turnos:
+	- Cuando un falla pierde turno	
+
+- Casillas:
+	- Con tematica sin queso (24)
+	- Volver a tirar (10)
+	- Con tematica con queso (7)
+	- Casilla duelo (2)
+	
+- 2 Jugadores
+- 1 Dado
+
+- Dinamica del juego:
+	- Cuando un jugador acierta continua jugando
+	- Cuando un falla pierde turno
+	- Cuando un jugador falla en casilla de queso pierde queso
+	
+- Fin del juego:
+	- El juego termina cuando un jugador consigue todos los quesos
+	- El juego termina cuando un jugador se rinde.
+	
 Aplicacion cliente
+
 
 API rest
