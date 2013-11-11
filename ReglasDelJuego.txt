@@ -1,0 +1,9 @@
+Triviados:
+-Un juego sobre un tablero en el que participan dos jugadores
+	-Se usa el tablero del trivial
+-La tematica del juego es ... (series, cine, ...)
+-Fichas: cada ficha tiene 7 huecos
+
+Aplicacion cliente
+
+API rest
