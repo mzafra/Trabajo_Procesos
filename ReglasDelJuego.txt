@@ -1,35 +1,56 @@
 Triviados:
 
--  Un juego sobre un tablero en el que participan dos jugadores
-	-Se usa el tablero del trivial
-	-ok
+- Juego online basado en el popular juego Triviados.
 
-- La tematica del juego es ... (series, cine, ...)
+- Jugadores: de 2 a 6.
+
+- Tablero: el del Triviados.
+
+- Preguntas sobre 6 temas, más una sección con preguntas sobre todos los otros temas: ciencia y tecnología, 
+arte y literatura, historia, espectáculos, deportes, geografía, de todo.
+
 - Fichas: 
-	- cada ficha tiene 7 huecos
-	- color
-	- tematica
+        - Cada ficha tiene 7 huecos por cada tema de los mencionados anteriormente.
+        - Cada ficha se rellena con quesitos. Un quesito del mismo color por ficha, es decir, una ficha estará
+        completa cuando tengo 7 quesitos de distinto color.
+        
+- Tiempo: 30 segundos para responder.
+        
 - Turnos:
-	- Cuando un falla pierde turno	
+        - Cuando un jugador falla pierde turno.
+        - Cuando un jugador acierta vuelve a tirar.
+        - Cuando a un jugador se le pasa el tiempo es como si fallara, pierde turno.
+        
+- Dinámica del juego:
+        - Si el jugador cae en una casilla con quesito: se le hace una pregunta de  la temática correspondiente
+        a ese color
+                - Si acierta la pregunta:
+                        - Si ya tiene el quesito de ese color y los oponentes no --> sigue jugando
+                        - Si ya tiene el quesito de ese color y algún oponente también --> elige a quién quitarle 
+                        el quesito de ese color
+                        - Si no tiene el quesito --> lo gana
+                - Si falla la pregunta:
+                        - Si ya tiene el quesito de ese color --> lo pierde
+                        - Si no tiene el quesito de ese color --> sigue jugando
+        - Si el jugador cae en una casilla de color pero sin quesito:
+                - Si acierta: sigue jugando.
+                - Si falla: pasa el turno al siguiente jugador.
+        - Si el jugador cae en una casilla de volver a tirar: vuelve a tirar el dado.
 
 - Casillas:
-	- Con tematica sin queso (24)
-	- Volver a tirar (10)
-	- Con tematica con queso (7)
-	- Casilla duelo (2)
-	
+        - casillas quesito (7)
+        - casillas volver a tirar (10)
+        - casillas de color segun el tema  (24)
+        - Casilla duelo (2)
+        
 - 2 Jugadores
-- 1 Dado
 
-- Dinamica del juego:
-	- Cuando un jugador acierta continua jugando
-	- Cuando un falla pierde turno
-	- Cuando un jugador falla en casilla de queso pierde queso
-	
+- 1 Dado
+        
 - Fin del juego:
-	- El juego termina cuando un jugador consigue todos los quesos
-	- El juego termina cuando un jugador se rinde.
-	
+        - El juego termina cuando un jugador consigue todos los quesos
+        - El juego termina cuando un jugador se rinde.
+        
 Aplicacion cliente
 
 
