@@ -2,6 +2,7 @@ Triviados:
 
 -  Un juego sobre un tablero en el que participan dos jugadores
 	-Se usa el tablero del trivial
+	-ok
 
 - La tematica del juego es ... (series, cine, ...)
 - Fichas: 
