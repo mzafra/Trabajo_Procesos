@@ -27,15 +27,19 @@ arte y literatura, historia, espectáculos, deportes, geografía, de todo.
                 - Si acierta la pregunta:
                         - Si ya tiene el quesito de ese color y los oponentes no --> sigue jugando
                         - Si ya tiene el quesito de ese color y algún oponente también --> elige a quién quitarle 
-                        el quesito de ese color
-                        - Si no tiene el quesito --> lo gana
+                        el quesito de ese color y sigue jugando
+                        - Si no tiene el quesito --> lo gana y sigue jugando
                 - Si falla la pregunta:
-                        - Si ya tiene el quesito de ese color --> lo pierde
+                        - Si ya tiene el quesito de ese color --> lo pierde y pasa el turno
                         - Si no tiene el quesito de ese color --> sigue jugando
         - Si el jugador cae en una casilla de color pero sin quesito:
                 - Si acierta: sigue jugando.
                 - Si falla: pasa el turno al siguiente jugador.
         - Si el jugador cae en una casilla de volver a tirar: vuelve a tirar el dado.
+        - Si el jugador cae en una casillas de duelo: elige a quien retar. Una vez respondidas las 7 preguntas:
+                - Si has conseguido más aciertos que el oponente: el oponente pierde uan estrella al azar y sigue jugando.
+                - Si has conseguido menos aciertos que el oponente: pierde un quesito al azar y pierde el turno.
+                - Si ambos jugadores tienen el mismo número de aciertos: sigue jugando el jugador que lanzó el reto.
 
 - Casillas:
         - Quesito (7)
@@ -44,7 +48,7 @@ arte y literatura, historia, espectáculos, deportes, geografía, de todo.
         - Duelo (2)
         - Central (1)
 
-- 1 Dado
+- 1 Dado de 6 caras
         
 - Fin del juego:
         - El juego termina cuando un jugador consigue todos los quesitos.
