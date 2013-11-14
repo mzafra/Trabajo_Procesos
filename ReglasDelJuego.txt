@@ -38,17 +38,16 @@ arte y literatura, historia, espectáculos, deportes, geografía, de todo.
         - Si el jugador cae en una casilla de volver a tirar: vuelve a tirar el dado.
 
 - Casillas:
-        - casillas quesito (7)
-        - casillas volver a tirar (10)
-        - casillas de color segun el tema  (24)
-        - Casilla duelo (2)
-        
-- 2 Jugadores
+        - Quesito (7)
+        - Volver a tirar (10)
+        - Normales (24)
+        - Duelo (2)
+        - Central (1)
 
 - 1 Dado
         
 - Fin del juego:
-        - El juego termina cuando un jugador consigue todos los quesos
+        - El juego termina cuando un jugador consigue todos los quesitos.
         - El juego termina cuando un jugador se rinde.
         
 Aplicacion cliente
