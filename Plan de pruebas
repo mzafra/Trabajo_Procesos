@@ -1,0 +1,46 @@
+PLAN DE PRUEBAS
+
+
+- Introducción
+
+
+- Elementos de pruebas
+
+
+- Características que se deben probar
+
+
+- Características que no se van a probar
+
+
+- Aproximación
+  - Pruebas funcionales
+  - Pruebas de carga
+  - Pruebas de rendimiento
+  - Pruebas de seguridad
+  
+  
+- Criterios para decidir si pasa/falla un elemento
+
+- Criterios de suspensión y reanudación
+  - Suspensión
+  - Reanudación
+  
+- Pruebas que se deben entregar
+
+
+- Tareas de prueba
+
+
+- Necesidades ambientales
+  - Hardware
+  - Software
+  - Seguridad
+  - Herramientas
+  - Publicaciones
+  
+  
+- Responsabilidades
+
+
+- Aprobación
