@@ -16,7 +16,7 @@ app.use(app.router);
 app.use(exp.static(__dirname + "/public"));
 
 app.get("/",function(request,response){
-        var contenido=fs.readFileSync("./cliente.html");
+        var contenido=fs.readFileSync("./indexOAuth.html");
         response.setHeader("Content-type","text/html");
         response.send(contenido);
 });
