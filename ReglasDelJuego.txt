@@ -31,8 +31,9 @@ arte y literatura, historia, espectáculos, deportes, geografía, de todo.
                         - Si no tiene el quesito --> lo gana y sigue jugando
                 - Si falla la pregunta:
                         - Si ya tiene el quesito de ese color --> lo pierde y pasa el turno
-                        - Si no tiene el quesito de ese color --> sigue jugando
-        - Si el jugador cae en una casilla de color pero sin quesito:
+                        - Si no tiene el quesito de ese color --> pasa el turno
+        - Si el jugador cae en una casilla de color pero sin quesito: se le hace una pregunta de la temática correspondiente
+        a ese color
                 - Si acierta: sigue jugando.
                 - Si falla: pasa el turno al siguiente jugador.
         - Si el jugador cae en una casilla de volver a tirar: vuelve a tirar el dado.
