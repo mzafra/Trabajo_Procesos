@@ -17,37 +17,52 @@ PLAN DE PRUEBAS
   de usuario del proyecto Triviados Procesos.
 
 - Aproximación
-  - Pruebas funcionales
-  
+
   Cada tarea será probada por dos miembros del Team. Principalmente, lo que se pretende es verificar la correcta 
   implementación de dichas tareas, mediante una serie de pruebas en distintos escenarios con diferentes entradas 
-  y salidas. Se considerará que se pasa una prueba si la salida esperada y la 
-  salida obtenida coinciden. No pasará, en caso contrario. Cada error encontrado (una salida obtenida que no se 
-  corresponda con la esperada) se notificará al Teamgrupo ‘Cerdos Azules del Software’ mediante una solicitud de cambio 
-  en Bugzilla.
+  y salidas. Se considerará que se pasa una prueba si la salida esperada y la salida obtenida coinciden. No pasará, 
+  en caso contrario. 
+  Cada error encontrado (una salida obtenida que no se corresponda con la esperada) se notificará al Team mediante 
+  la aplicación web Kunagi en su sección "Product" --> "Issues" --> "Create issue" --> "Accept as bug".
   
+  - Pruebas funcionales
+  
+  El éxito de cada prueba vendrá dado por el resultado final de la misma; si coincide con lo descrito en la tarea 
+  correspondiente: pasa la prueba; si encontramos un resultado inesperado en cualquiera de los posibles escenarios, 
+  se reportará un bug al Team y la prueba será fallida.
   
 - Criterios para decidir si pasa/falla un elemento
 
-- Criterios de suspensión y reanudación
-  - Suspensión
-  - Reanudación
+  Se considerará que se pasa una prueba si la salida esperada y la salida obtenida coinciden. No pasará, en caso 
+  contrario. 
   
 - Pruebas que se deben entregar
 
+  Se entregarán los siguientes documentos:
+
+    -	Caso de prueba sto3.
+    -	Caso de prueba XXX.
+    -	Caso de prueba XXX.
+    -	Caso de prueba XXX.
+    -	Informe de pruebas.
+    -	Procedimiento de pruebas.
+    -	Plan de pruebas
+    -	Log de pruebas
+    
+    Además, los errores encontrados en el software se notificarán al Team mediante Kunagi.
 
 - Tareas de prueba
 
-
-- Necesidades ambientales
-  - Hardware
-  - Software
-  - Seguridad
-  - Herramientas
-  - Publicaciones
-  
+  Planear y diseñar las pruebas, implementarlas y ejecutarlas.
   
 - Responsabilidades
 
+  Planear y diseñar las pruebas: Collete
+  Implementarlas: Miriam Lourdes y Luis
+  Ejecutarlas: Zafra
 
 - Aprobación
+
+  Firma de Gallud.
+
+
