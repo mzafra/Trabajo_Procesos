@@ -3,21 +3,28 @@ PLAN DE PRUEBAS
 
 - Introducción
 
+  El principal objetivo que persigue la redacción de este documento es obtener los resultados esperados
+  según las descripciones de las distintas historias de usuario descritas por el cliente para el proyecto 
+  Triviados Procesos.
 
 - Elementos de pruebas
-
+  
+  Google Chrome
 
 - Características que se deben probar
 
-
-- Características que no se van a probar
-
+  Se probará que la implementación corresponde con lo descrito en las tareas de las diferentes historias 
+  de usuario del proyecto Triviados Procesos.
 
 - Aproximación
   - Pruebas funcionales
-  - Pruebas de carga
-  - Pruebas de rendimiento
-  - Pruebas de seguridad
+  
+  Cada tarea será probada por dos miembros del Team. Principalmente, lo que se pretende es verificar la correcta 
+  implementación de dichas tareas, mediante una serie de pruebas en distintos escenarios con diferentes entradas 
+  y salidas. Se considerará que se pasa una prueba si la salida esperada y la 
+  salida obtenida coinciden. No pasará, en caso contrario. Cada error encontrado (una salida obtenida que no se 
+  corresponda con la esperada) se notificará al Teamgrupo ‘Cerdos Azules del Software’ mediante una solicitud de cambio 
+  en Bugzilla.
   
   
 - Criterios para decidir si pasa/falla un elemento
