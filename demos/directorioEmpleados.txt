@@ -1,0 +1,11 @@
+La demo que se encuentra en directorioEmpleados se compone de varias piezas:
+a) Servidor nodejs: un servidor nodejs que proporciona el API Rest que ya conocíamos del ejemplo de Backbone para la gestión de usuarios
+  Este servidor, en localhost:1337 lanza un aplicación jQuery mobile que consume los servicios (adaptada para móviles)
+  En localhost:1337/admin devuelve el gestor Backbone tal como lo conocíamos
+  El servidor se encuentra en la carpeta www y el nombre del archivo es "server-UsersDir.js" (necesita express y mongoose)
+b) Cliente Backbone index-backbone.html: este cliente ya lo hemos utilizado anteriormente. Con esta aplicación podemos conectarnos
+  al API REST y crear, modificar, actualizar y eliminar "empleados"
+c) Cliente index.html basado en jQuery mobile que está adaptado para funcionar en dispositivos móviles
+d) empleadosApp: en esta carpeta tenemos la estructura que crea cordova para empaquetar aplicaciones web como apps móviles. 
+  Para poder crear el apk se necesita instalar cordova (http://docs.phonegap.com/en/3.1.0/index.html) que, a su vez, necesita 
+  el sdk de Android
