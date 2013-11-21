@@ -91,10 +91,10 @@ UserSchema.statics.findOrCreateTwitterUser = function(profile, done){
 		}else{
 			console.log("intenta crear el reg");
 			User.create({
-				email : profile.emails[0].value,
+				email : profile.username, //emails[0].value,
 				twitter : {
 					id:    profile.id,
-					email: profile.emails[0].value,
+					email: profile.username, //emails[0].value,
 					name:  profile.displayName
 				}
 			}, function(err, user){
