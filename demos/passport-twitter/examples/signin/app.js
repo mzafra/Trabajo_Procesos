@@ -3,8 +3,8 @@ var express = require('express')
   , util = require('util')
   , TwitterStrategy = require('passport-twitter').Strategy;
 
-var TWITTER_CONSUMER_KEY = "hhgp8iiYLLvM4cmZgX2Z4w";
-var TWITTER_CONSUMER_SECRET = "pIsXCLxrFHpjBrTI8DGBlh6HEXXg4IhyFtnnIVkzM";
+var TWITTER_CONSUMER_KEY = "--------";
+var TWITTER_CONSUMER_SECRET = "-------------";
 
 
 // Passport session setup.
@@ -30,7 +30,7 @@ passport.deserializeUser(function(obj, done) {
 passport.use(new TwitterStrategy({
     consumerKey: TWITTER_CONSUMER_KEY,
     consumerSecret: TWITTER_CONSUMER_SECRET,
-    callbackURL: "http://127.0.0.1:3000/auth/twitter/callback"
+    callbackURL: "/auth/twitter/callback"
   },
   function(token, tokenSecret, profile, done) {
     // asynchronous verification, for effect...
