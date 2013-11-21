@@ -5,14 +5,14 @@ module.exports = {
 			name: 'Passport Authentication Tutorial'
 		},
 		twitter: {
-			clientID: "hhgp8iiYLLvM4cmZgX2Z4w",
-			clientSecret: "pIsXCLxrFHpjBrTI8DGBlh6HEXXg4IhyFtnnIVkzM",
-			callbackURL: "http://161.67.8.20:3000/auth/twitter/callback"
+			clientID: "-----",
+			clientSecret: "----",
+			callbackURL: "/auth/twitter/callback"
 		},		
 		facebook: {
-			clientID: "180099695527613",
-			clientSecret: "a1715352dc589823bd3327df93f412b5",
-			callbackURL: "http://161.67.8.20:3000/auth/facebook/callback"
+			clientID: "------",
+			clientSecret: "------",
+			callbackURL: "/auth/facebook/callback"
 		}
 	},
   	production: {
@@ -21,9 +21,9 @@ module.exports = {
 			name: 'Passport Authentication Tutorial'
 		},
 		twitter: {
-			clientID: "hhgp8iiYLLvM4cmZgX2Z4w",
-			clientSecret: "pIsXCLxrFHpjBrTI8DGBlh6HEXXg4IhyFtnnIVkzM",
-			callbackURL: "http://161.67.8.20:3000/auth/twitter/callback"
+			clientID: "-----",
+			clientSecret: "------",
+			callbackURL: "/auth/twitter/callback"
 		},
 		facebook: {
 			clientID: "clientID",
