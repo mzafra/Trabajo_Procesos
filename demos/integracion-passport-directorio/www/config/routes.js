@@ -55,23 +55,8 @@ module.exports = function(app, passport){
 		passport.authenticate("twitter",{ failureRedirect: '/login'}),
 		function(req,res){
 			//res.render("tablero",{user : req.user});
-			if (!jug1) {
-				jug1=req.user;
-				partida.jug1=jug1;
-				console.log("jug1="+jug1.name);
-				res.redirect("/partida");
-				}			
-			else
-				if (!jug2) {
-					jug2=req.user;
-					partida.jug2=jug2;
-					console.log("jug2="+jug2.name);
-					res.redirect("/partida");			
-				}
-				else
-	 				res.render('404');
 			//res.render("profile", {user : req.user});
-
+			res.redirect("/ini");
 		}
 	);
 
