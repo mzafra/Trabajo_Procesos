@@ -78,6 +78,19 @@ module.exports = function(app, passport){
 	    });
 	});
 
+	//Insert a new empleado
+	app.post("/empleados", Auth.userExist, function (req, res, next) {
+	    
+	    User.signup(req.body.email, req.body.clave, function(err, user){
+			if(err) throw err;
+			//request.login(user, function(err){
+			//	if(err) return next(err);
+			return res.send(user);
+			//});
+		});
+		
+	});
+
 	app.get('/partida', Auth.isAuthenticated, function( request, response ) {
 
 		response.render("tablero",{partida:partida});

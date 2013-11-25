@@ -15,7 +15,7 @@ function getEmployeeList() {
 			$('#employeeList').append('<li><a href="employeedetails.html?id=' + employee._id + '">' +
 					'<img src="pics/' + employee.img + '"/>' +
 					'<h4>' + employee.nombre + ' ' + employee.apellidos + '</h4>' +
-					'<p>' + employee.titulo + '</p>' + '<p>' + employee.email + '</p>' +
+					'<p>' + employee.clave + '</p>' + '<p>' + employee.email + '</p>' +
 					'<span class="ui-li-count">' + employee.reportCount + '</span></a></li>');
 		});
 		$('#employeeList').listview('refresh');

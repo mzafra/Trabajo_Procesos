@@ -13,7 +13,7 @@
     <table class="table striped">
       <thead>
         <tr>
-          <th>Nombre</th><th>Apellidos</th><th>Email</th><th>Titulo</th><th>Foto</th><th>Contador</th><th></th>
+          <th>Nombre</th><th>Apellidos</th><th>Email</th><th>Clave</th><th>Foto</th><th>Contador</th><th></th>
         </tr>
       </thead>
       <tbody>
@@ -22,7 +22,7 @@
             <td><%= empleado.get('nombre') %></td>
             <td><%= empleado.get('apellidos') %></td>
             <td><%= empleado.get('email') %></td>
-            <td><%= empleado.get('titulo') %></td>
+            <td><%= empleado.get('clave') %></td>
             <td><%= empleado.get('img') %></td>
             <td><%= empleado.get('reportCount') %></td>
             <td><a href="#/edit/<%= empleado.get('_id') %>" class="btn">Edit</a></td>
@@ -41,8 +41,8 @@
         <input name="apellidos" type="text" value="<%= empleado ? empleado.get('apellidos') : '' %>" /> 
         <label>Email</label>
         <input name="email" type="text" value="<%= empleado ? empleado.get('email') : '' %>" /> 
-        <label>Titulo</label>
-        <input name="titulo" type="text" value="<%= empleado ? empleado.get('titulo') : '' %>" /> 
+        <label>Clave</label>
+        <input name="clave" type="text" value="<%= empleado ? empleado.get('clave') : '' %>" /> 
         <label>Foto</label>
         <input name="img" type="text" value="<%= empleado ? empleado.get('img') : '' %>" /> 
         <label>Contador</label>
