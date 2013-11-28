@@ -3,11 +3,10 @@ function partida(){
 	this.turno="";
 	this.jug1="";
 	this.jug2="";
+	this.dado=new dado();
 }
 
 function tablero(){
-	//42 casillas
-	//casillaQuesito: 1,8,15,22,29,36  
 	var posCasillaQuesito=[1,8,15,22,29,36,43];
 	var posRojos=[11,21,29,37,47];
 	var posAmarillos=[5,18,28,36,44];
@@ -80,4 +79,12 @@ function ficha(){
 function quesito(color,conseguida){
 	this.color=color;
 	this.conseguida=conseguida;
+}
+
+function dado(){
+	this.tirarDado=function (){
+		//create a random integer between 0 and 5
+		return Math.round(Math.random()*5 +1)
+		//document.images["mydice"].src=eval("face"+randomdice+".src")
+	}
 }
