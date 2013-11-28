@@ -1,6 +1,8 @@
 function partida(){
 	this.tablero ="";
 	this.turno="";
+	this.jug1="";
+	this.jug2="";
 }
 
 function tablero(){
@@ -53,8 +55,6 @@ function tablero(){
 	
 		return col;
 	};
-		
-	//this.casillasQueso=this.casillasQ();
 	this.tablero=this.iniTablero();
 }
 
@@ -72,8 +72,9 @@ function jugador(){
 }
 
 function ficha(){
-	this.quesitos=new Array(new quesito("rojo",false),new quesito("verde",false), new quesito("naranja",false), new quesito("amarillo",false), new quesito("azul",false), 
-		new quesito("negro",false), new quesito("marron",false), new quesito("rosa",false));
+	this.quesitos=new Array(new quesito("rojo",false),new quesito("verde",false), new quesito("naranja",false), 
+		new quesito("amarillo",false), new quesito("azul",false), 
+		new quesito("marron",false), new quesito("rosa",false));
 }
 
 function quesito(color,conseguida){
