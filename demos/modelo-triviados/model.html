@@ -1,6 +1,7 @@
 <script>
 function partida(){
 	this.tablero ="";
+	this.turno=
 	this.metodo1 = function metod1(arg1){
 		return arg1 + " "+this.prop2;
 	}
@@ -78,7 +79,7 @@ function jugador(){
 }
 
 function ficha(){
-	this.quesitos=new Array(new quesito("rojo",false),new quesito("verde",false), new quesito("naranja",false));
+	this.quesitos=new Array(new quesito("rojo",false),new quesito("verde",false), new quesito("naranja",false), new quesito("amarillo",false), new quesito("azul",false), new quesito("negro",false), new quesito("marron",false), new quesito("rosa",false);
 }
 
 function quesito(color,conseguida){
