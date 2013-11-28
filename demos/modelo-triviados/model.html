@@ -10,7 +10,15 @@ function tablero(){
 	//42 casillas
 	//casillaQuesito: 1,8,15,22,29,36  
 	var posCasillaQuesito=[1,8,15,22,29,36,43];
-	var posRojo=[11,21,29,40];
+	var posRojo=[11,21,29,37,47];
+	var posAmarillo=[5,18,28,36,44];
+	var posAzul=[4,14,22,30,40];
+	var posVerde=[2,12,25,35,43];
+	var posNaranja=[7,15,23,33,46];
+	var posGris=[3,6,13,17,20,24,27,31,38,41,45,48];
+	var posNegro=[10,34];
+	var posRosa=[8,16,26,39,49];
+	var posMarron=[1,9,19,32,42];
 	this.tablero = new Array(49);
 	this.iniTablero = function (){
 		for(var i=0;i<49;i++)
@@ -20,9 +28,41 @@ function tablero(){
 		for(i in posCasillaQuesito)
 			this.tablero[posCasillaQuesito[i]]=(new casilla(posCasillaQuesito[i],"Q"));
 	};
-	this.ponRojos=function ponRojo(){
+	this.ponRojos=function ponRojos(){
 		for(i in posRojo)
 			this.tablero[posRojo[i]].casilla.color="rojo";
+	}
+	this.ponAmarillos=function ponAmarillos(){
+		for(i in posAmarillo)
+			this.tablero[posAmarillo[i]].casilla.color="amarillo";
+	}
+	this.ponAzules=function ponAzules(){
+		for(i in posAzul)
+			this.tablero[posAzul[i]].casilla.color="azul";
+	}
+	this.ponVerdes=function ponVerdes(){
+		for(i in posVerde)
+			this.tablero[posVerde[i]].casilla.color="verde";
+	}
+	this.ponNaranjas=function ponNaranjas(){
+		for(i in posNaranja)
+			this.tablero[posNaranja[i]].casilla.color="naranja";
+	}
+	this.ponGrises=function ponGrises(){
+		for(i in posGrises)
+			this.tablero[posGrises[i]].casilla.color="grises";
+	}
+	this.ponNegros=function ponNegros(){
+		for(i in posNegros)
+			this.tablero[posNegros[i]].casilla.color="negros";
+	}
+	this.ponRosas=function ponRosas(){
+		for(i in posRosas)
+			this.tablero[posRosas[i]].casilla.color="rosas";
+	}
+	this.ponMarrones=function ponMarrones(){
+		for(i in posMarrones)
+			this.tablero[posMarrones[i]].casilla.color="marrones";
 	}
 	this.casillasQueso=this.casillasQ();
 }
