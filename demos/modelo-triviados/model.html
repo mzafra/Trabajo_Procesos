@@ -1,0 +1,61 @@
+<script>
+function partida(){
+	this.tablero ="";
+	this.metodo1 = function metod1(arg1){
+		return arg1 + " "+this.prop2;
+	}
+}
+
+function tablero(){
+	//42 casillas
+	//casillaQuesito: 1,8,15,22,29,36  
+	var posCasillaQuesito=[1,8,15,22,29,36,43];
+	var posRojo=[11,21,29,40];
+	this.tablero = new Array(49);
+	this.iniTablero = function (){
+		for(var i=0;i<49;i++)
+			this.tabero[i]= (new casilla(i,undefined));
+	};
+	this.casillasQ=function (){
+		for(i in posCasillaQuesito)
+			this.tablero[posCasillaQuesito[i]]=(new casilla(posCasillaQuesito[i],"Q"));
+	};
+	this.ponRojos=function ponRojo(){
+		for(i in posRojo)
+			this.tablero[posRojo[i]].casilla.color="rojo";
+	}
+	this.casillasQueso=this.casillasQ();
+}
+
+
+function casilla(numero,tipo){
+	this.numero=numero;
+	this.tipo=tipo; //Q,T,P
+	this.color=undefined; //rojo,verde,naranja
+}
+
+
+function jugador(){
+	this.nombre="";
+	this.ficha= new ficha();
+}
+
+function ficha(){
+	this.quesitos=new Array(new quesito("rojo",false),new quesito("verde",false), new quesito("naranja",false));
+}
+
+function quesito(color,conseguida){
+	this.color=color;
+	this.conseguida=conseguida;
+}
+
+var jug1 = new jugador();
+jug1.nombre="Pepito";
+
+var jug2 = new jugador();
+jug2.nombre="Juanito";
+
+var tablero=new tablero();
+
+
+</script>
