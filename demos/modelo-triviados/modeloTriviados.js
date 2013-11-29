@@ -2,8 +2,7 @@ function partida(){
 	this.tablero ="";
 	this.turno="";
 	this.jug1="";
-	this.jug2="";
-	this.dado=new dado();
+	this.jug2="";	
 }
 
 function tablero(){
@@ -68,6 +67,7 @@ function casilla(numero,tipo){
 function jugador(){
 	this.nombre="";
 	this.ficha= new ficha();
+	this.dado=new dado();
 }
 
 function ficha(){
